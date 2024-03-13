@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Starter {
 
-	public Elevator elevator;
+	private Elevator elevator;
 
 	public Starter() {
 		System.out.println();
