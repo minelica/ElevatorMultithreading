@@ -7,12 +7,13 @@ public class Starter {
 	private Elevator elevator;
 
 	public Starter() {
+	
+		System.out.println("----------------------------------------------------");
 		System.out.println();
-		System.out.println("----------------------------------------------");
 		System.out.println("Dieses Gebäude hat vier Stockwerke.");
 		System.out.println("Die Kapazität des Aufzugs beträgt 15 Personen.");
 		System.out.println();
-		System.out.println("----------------------------------------------");
+		System.out.println("----------------------------------------------------");
 		System.out.println();
 		elevator = new Elevator(4);
 		elevator.start();
